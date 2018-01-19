@@ -4,7 +4,8 @@
   "description": "Technologies used:\r - React 16\r - Next JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next",
+    "build": "next build ./src"
   },
   "repository": {
     "type": "git",
