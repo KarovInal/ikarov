@@ -1,0 +1,24 @@
+{
+  "name": "ikarov",
+  "version": "1.0.0",
+  "description": "Technologies used:\r - React 16\r - Next JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarovInal/ikarov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarovInal/ikarov/issues"
+  },
+  "homepage": "https://github.com/KarovInal/ikarov#readme",
+  "devDependencies": {
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
