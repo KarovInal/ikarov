@@ -1,0 +1,13 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _defaultExport = new String('body{font-family:"Roboto Mono",sans-serif;background-color:#090909;color:#DADADA;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxsYXlvdXRcXGhlYWRcXHN0eWxlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVrQixBQUcyQyxxQ0FDYix5QkFDWCxjQUNoQiIsImZpbGUiOiJwYWdlc1xcbGF5b3V0XFxoZWFkXFxzdHlsZS5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9JbmFsX0thcm92L3NpdGUvaWthcm92Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGNzcyBmcm9tICdzdHlsZWQtanN4L2Nzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBjc3NgXHJcbiAgYm9keSB7XHJcbiAgICBmb250LWZhbWlseTogXCJSb2JvdG8gTW9ub1wiLCBzYW5zLXNlcmlmO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzA5MDkwOTtcclxuICAgIGNvbG9yOiAjREFEQURBO1xyXG4gIH1cclxuYDsiXX0= */\n/*@ sourceURL=pages\\layout\\head\\style.js */');
+
+_defaultExport.__hash = '1156543710';
+_defaultExport.__scoped = 'body.jsx-3975049439{font-family:"Roboto Mono",sans-serif;background-color:#090909;color:#DADADA;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxsYXlvdXRcXGhlYWRcXHN0eWxlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVrQixBQUcyQyxxQ0FDYix5QkFDWCxjQUNoQiIsImZpbGUiOiJwYWdlc1xcbGF5b3V0XFxoZWFkXFxzdHlsZS5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9JbmFsX0thcm92L3NpdGUvaWthcm92Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGNzcyBmcm9tICdzdHlsZWQtanN4L2Nzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBjc3NgXHJcbiAgYm9keSB7XHJcbiAgICBmb250LWZhbWlseTogXCJSb2JvdG8gTW9ub1wiLCBzYW5zLXNlcmlmO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzA5MDkwOTtcclxuICAgIGNvbG9yOiAjREFEQURBO1xyXG4gIH1cclxuYDsiXX0= */\n/*@ sourceURL=pages\\layout\\head\\style.js */';
+_defaultExport.__scopedHash = '3975049439';
+
+exports.default = _defaultExport;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxsYXlvdXRcXGhlYWRcXHN0eWxlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs4QkFFQSIsImZpbGUiOiJzdHlsZS5qcyIsInNvdXJjZVJvb3QiOiJDOi9Vc2Vycy9JbmFsX0thcm92L3NpdGUvaWthcm92In0=

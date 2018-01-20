@@ -4,8 +4,7 @@
   "description": "Technologies used:\r - React 16\r - Next JS",
   "main": "index.js",
   "scripts": {
-    "start": "next",
-    "build": "next build ./src"
+    "start": "next"
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,12 @@
   },
   "homepage": "https://github.com/KarovInal/ikarov#readme",
   "devDependencies": {
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "flow-bin": "^0.63.1",
     "next": "^4.2.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "styled-components": "^2.4.0"
   }
 }
