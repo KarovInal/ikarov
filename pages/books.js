@@ -7,14 +7,17 @@ import Books from './components/books';
 
 const BOOKS = [
   {
+    id: 1,
     cover: 'https://royallib.com/data/images/378/cover_378914.jpg',
     label: 'От нуля к единице как создать стартап который изменит будущее'
   },
   {
+    id: 2,
     cover: 'https://ozon-st.cdn.ngenix.net/multimedia/1014060099.jpg',
     label: 'Цифровое золото'
   },
   {
+    id: 3,
     cover: 'https://s.f.kz/prod/358/357531_550.jpg',
     label: 'Бойцовский клуб'
   },
