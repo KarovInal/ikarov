@@ -11,6 +11,9 @@ export default () =>
     <div className="content">
       <Person />
       <Navigation />
+
+      <p>contacts: </p>
+
       <ContactList />
     </div>
 

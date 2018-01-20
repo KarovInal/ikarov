@@ -1,5 +1,6 @@
 // @flow
 import * as React from 'react';
+import { withRouter } from 'next/router';
 
 type IPropsActiveLink = {
   href: string,
@@ -31,4 +32,4 @@ const ActiveLink = ({ href, router, children }: IPropsActiveLink) => {
   )
 }
 
-export default ActiveLink;
+export default withRouter(ActiveLink);
