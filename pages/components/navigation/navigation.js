@@ -1,26 +1,16 @@
 import * as React from 'react';
 import ActiveLink from './active-link';
-import { withRouter } from 'next/router'
 
-const Navigation = ({ router }) => {
-  const ROUTER_PATH = router.pathname ? router.pathname : '';
+const Navigation = () =>
+  <div className="navigator-wrap">
+    <div>
+      <ActiveLink href="/">{'🏠'}</ActiveLink>
+      <ActiveLink href="/contacts">{'💬'}</ActiveLink>
+      <ActiveLink href="/twitter">{'🤔'}</ActiveLink>
+      <ActiveLink href="/books">{'📚'}</ActiveLink>
+    </div>
 
-  return (
-    <div className="navigator-wrap">
-      <div>
-        <ActiveLink router={router} href="/">{'🏠'}</ActiveLink>
-        <ActiveLink router={router} href="/contacts">{'💬'}</ActiveLink>
-        <ActiveLink router={router} href="/twitter">{'🤔'}</ActiveLink>
-        <ActiveLink router={router} href="/books">{'📚'}</ActiveLink>
-      </div>
-
-      <p>{
-        (!ROUTER_PATH || ROUTER_PATH === '/' || ROUTER_PATH === '/index')
-          ? ''
-          : ROUTER_PATH.slice(1)
-      }</p>
-
-      <style jsx>{`
+    <style jsx>{`
       .navigator-wrap {
         max-width: 200px;
         display: flex;
@@ -34,9 +24,7 @@ const Navigation = ({ router }) => {
         text-decoration: none;
         margin: 0 5px;
       }
-    `}</style>
-    </div>
-  );
-}
+  `}</style>
+  </div>
 
-export default withRouter(Navigation);
+export default Navigation
