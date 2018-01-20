@@ -1,6 +1,5 @@
 // @flow
 import * as React from 'react';
-import { withRouter } from 'next/router'
 
 type IPropsActiveLink = {
   href: string,
@@ -15,12 +14,14 @@ const ActiveLink = ({ href, router, children }: IPropsActiveLink) => {
   };
 
   const ROUTER_PATH = router.pathname ? router.pathname : '/';
-
   const isActive = ROUTER_PATH === href ? 'solid white 2px' : '';
 
   return (
     <label>
-      <a href="#" onClick={handleClick}>{ children }</a>
+      <a href="#" onClick={handleClick}>
+        { children }
+      </a>
+
       <style jsx>{`
         a {
           border-bottom: ${ isActive }
@@ -30,4 +31,4 @@ const ActiveLink = ({ href, router, children }: IPropsActiveLink) => {
   )
 }
 
-export default withRouter(ActiveLink);
+export default ActiveLink;
