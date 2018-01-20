@@ -10,7 +10,7 @@ export default () =>
     <div className="content">
       <Person />
       <Navigation />
-      <h1>HOME</h1>
+      <h1>TWITTER</h1>
     </div>
 
     <style jsx>{`
