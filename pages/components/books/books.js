@@ -6,8 +6,8 @@ type IBook = {
 }
 
 const Books = ({ books }: Array<IBook>) => {
-  const BookList = books.map(({ cover, label }) => (
-    <div className="book-container">
+  const BookList = books.map(({ cover, label, id }) => (
+    <div className="book-container" key={ id }>
       <img className="book-cover" src={cover} />
       <p className="book-label">{ label }</p> 
       <style jsx>{`
